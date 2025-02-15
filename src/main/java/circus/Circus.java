@@ -27,7 +27,6 @@ public class Circus {
 
     private static int calculateAssetValue(Asset[] assets) {
         int total = 0;
-<<<<<<< HEAD:src/main/java/Circus.java
         for (Equipment e : equipments) {
             if (e.getValue() <= 5) {
                 System.out.println("Ignoring low value item: " + e.getValue());
@@ -38,12 +37,10 @@ public class Circus {
                 // more
                 // code 
                 // here ...
-=======
         for (Asset a : assets) {
             if (a.getValue() <= 5) {
                 System.out.println("Ignoring low value item: " + a.getValue());
                 continue;
->>>>>>> improvecode:src/main/java/circus/Circus.java
             }
             total += a.getValue();
             System.out.println("Adding item value: " + a.getValue());
